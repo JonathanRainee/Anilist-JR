@@ -19,7 +19,7 @@ const Navbar = () => {
     return(
         <div>
             <div style={{backgroundColor: CurrTheme.background}} className="flex flex-col w-full h-16 bg-black items-center p-3">
-                <p style={{color: CurrTheme.color}} className="text-white text-4xl">MyAnimeList</p>
+                <p style={{color: CurrTheme.color}} className="text-white text-4xl">AniList - JR</p>
             </div>
             <div style={{backgroundColor: CurrTheme.background}} className="flex flex-row items-center w-full">
                 <button style={{backgroundColor: CurrTheme.background, color: CurrTheme.color}} className="text-center pt-2 w-[25%] h-10 text-white bg-black hover:bg-gray-900 active:bg-gray-800" onClick={changeTheme}>Theme</button>
